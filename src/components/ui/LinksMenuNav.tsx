@@ -13,16 +13,7 @@ const LinksMenu = [
     path: '/about',
     delay: '175ms'
   },
-  {
-    name: 'Projects',
-    path: '/projects',
-    delay: '200ms'
-  },
-  {
-    name: 'Blog',
-    path: '/blog',
-    delay: '225ms'
-  }
+  // 'Projects' und 'Blog' entfernt
 ];
 
 const LinksMenuNav = () => {

@@ -12,12 +12,7 @@ export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
   '/about': {
     name: 'about'
   },
-  '/projects': {
-    name: 'projects'
-  },
-  '/blog': {
-    name: 'blog'
-  }
+  // 'projects' und 'blog' entfernt
 };
 
 const LinksNav = () => {

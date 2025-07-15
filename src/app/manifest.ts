@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 // app/manifest.ts
 import type { MetadataRoute } from 'next';
 import { siteConfig } from '@/src/configs/config';

@@ -53,9 +53,9 @@ export const siteConfig: {
   author: 'Karim El-Ayoubi',
   author_surname: 'El-Ayoubi',
   titlePrefix: 'Karim El-Ayoubi',
-  github_org_name: 'Fiaz Technologies',
+  github_org_name: 'devopsenqineer',
   country: 'Germany',
-  profile_image: '',
+  profile_image: '/img/1724769043440.jpg',
   form_id: 'https://formspree.io/f/myzynpbr',
   social: {
     kofi: '',

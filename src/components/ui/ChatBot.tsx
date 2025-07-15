@@ -113,17 +113,7 @@ const Chatbot = () => {
 
   return (
     <>
-      {/* Chatbot Button */}
-      <div
-        className={`fixed bottom-16 right-6 z-50 p-4 bg-black dark:bg-white dark:text-white text-black rounded-full shadow-lg cursor-pointer transition-all duration-300 transform ${
-          isOpen ? 'rotate-180' : ''
-        }`}
-        onClick={toggleChat}
-      >
-        <span className="text-2xl">{isOpen ? '❌' : '🚀'}</span>
-      </div>
-
-      {/* Chatbot Window */}
+      {/* Chatbot Button entfernt */}
       {isOpen && (
         <div className="fixed bottom-36 right-6 sm:right-8 w-80 sm:w-[300px] bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg border border-gray-300 dark:border-gray-600 flex flex-col h-[500px] sm:h-[400px]">
           {/* Chatbot Header */}

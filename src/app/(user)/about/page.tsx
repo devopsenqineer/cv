@@ -5,7 +5,7 @@ import { siteConfig } from '@/src/configs/config';
 export async function generateMetadata() {
   return getPageMetadata({
     title: 'About Me',
-    description: `Learn more about ${siteConfig.author}, my mission, vision, and values as a developer.`,
+    description: `Learn more about ${siteConfig.author}, my mission, vision, and values as a devops engineer.`,
     path: '/about'
   });
 }

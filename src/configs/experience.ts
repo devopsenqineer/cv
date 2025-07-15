@@ -8,68 +8,67 @@ export interface ExperienceEntry {
   endDate: string;
   isActive?: boolean;
   companyUrl?: string;
+  linkedin?: string;
+  xing?: string;
+  blog?: string;
 }
 
 export const experienceEntries: ExperienceEntry[] = [
   {
-    title: 'Looking for Job Opportunities | Present',
+    title: 'DevOps Engineer | Jan. 2025 - Present',
     description:
-      "Currently seeking job opportunities in **Software Engineering**, **AI**, **Data Science**, and **Full Stack** development. Open to full-time roles, internships, or freelance work. Let's connect!",
-    startDate: 'Present',
+      'Working as a DevOps Engineer with focus on Docker, Kubernetes, Linux, AWS and OTC Cloud. Leading a migration project for the Atlassian Suite and optimizing CI/CD pipelines integrated with AWS and Cloudflare.',
+    startDate: 'Jan 2025',
     endDate: 'Present',
     isActive: true,
-    companyUrl: siteConfig.social.linkedin
+    companyUrl: siteConfig.social.linkedin,
+    linkedin: siteConfig.social.linkedin,
+    xing: siteConfig.social.xing.username,
+    blog: 'https://salad1n.dev'
   },
   {
-    title: 'Fiaz Technologies | Nov. 2023 - Present',
+    title: 'Homelab & Personal Projects | Always Evolving',
     description:
-      'Building developer-first tools at Fiaz Technologies to enhance productivity. Focused on creating innovative Tools that empower developers.',
-    startDate: 'Nov 2023',
+      'Running a Homelab with Proxmox, K3s Kubernetes, ArgoCD, GitLab CI/CD, Terraform, Ansible and self-hosted infrastructure. Continuously experimenting with new tools and technologies.',
+    startDate: 'Ongoing',
     endDate: 'Present',
     isActive: true,
-    companyUrl: siteConfig.social.github_organisation
+    companyUrl: siteConfig.baseUrl + '/blog',
+    linkedin: siteConfig.social.linkedin,
+    xing: siteConfig.social.xing.username,
+    blog: 'https://salad1n.dev'
   },
   {
-    title: 'Hacktoberfest 2024 | Oct. 2024 - Nov. 2024',
+    title: 'Junior DevOps Engineer | Jan. 2024 - Dec. 2024',
     description:
-      'Participated as a maintainer and content writer in the Hacktoberfest event. Contributed to open-source projects and wrote technical content on platforms such as Medium, Dev.to, and Hashnode.',
-    startDate: 'Oct 2024',
-    endDate: 'Nov 2024',
-    isActive: false,
-    companyUrl: siteConfig.other.hacktoberfest
+      'Worked as a Junior DevOps Engineer in the same organization where I completed my apprenticeship. Focused on CI/CD with Azure DevOps, Azure Cloud, Terraform, and Ansible.',
+    startDate: 'Jan 2024',
+    endDate: 'Dec 2024',
+    companyUrl: siteConfig.social.linkedin,
+    linkedin: siteConfig.social.linkedin,
+    xing: siteConfig.social.xing.username,
+    blog: 'https://salad1n.dev'
   },
   {
-    title: 'CodSoft - Data Science Intern | Sep. 2023 - Oct. 2023',
+    title: 'IT Specialist Apprenticeship (System Integration) | Aug. 2021 - Jan. 2024',
     description:
-      'Self-paced Data Science Intern where I gained practical experience in data science applications using Python. I also contributed to open-source projects and maintained repositories on GitHub.',
-    startDate: 'Sep 2023',
-    endDate: 'Oct 2023',
-    companyUrl: siteConfig.other.codsoft
+      'Completed an IT specialist apprenticeship in a healthcare company with 1000+ employees. Rotated through several IT departments and specialized in DevOps during the final year.',
+    startDate: 'Aug 2021',
+    endDate: 'Jan 2024',
+    companyUrl: siteConfig.social.linkedin,
+    linkedin: siteConfig.social.linkedin,
+    xing: siteConfig.social.xing.username,
+    blog: 'https://salad1n.dev'
   },
   {
-    title: 'Hacktoberfest 2023 | Sep. 2023 - Oct. 2023',
+    title: 'Office Management Apprenticeship | 2016 - 2019',
     description:
-      'Participated as a maintainer and content writer in the Hacktoberfest event. Contributed to open-source projects and wrote technical content on platforms such as Medium, Dev.to, and Hashnode.',
-    startDate: 'Sep 2023',
-    endDate: 'Oct 2023',
-    companyUrl: siteConfig.other.hacktoberfest
+      'Apprenticeship in office management at a globally known NGO. Gained organizational and administrative experience before transitioning into IT.',
+    startDate: '2016',
+    endDate: '2019',
+    companyUrl: siteConfig.social.linkedin,
+    linkedin: siteConfig.social.linkedin,
+    xing: siteConfig.social.xing.username,
+    blog: 'https://salad1n.dev'
   },
-  {
-    title: 'Technical Content Writer | Sep. 2023 - Present',
-    description:
-      'Writing technical content and tutorials on platforms like Medium, Dev.to, and Hashnode. Topics include software development, data science, and open-source contributions.',
-    startDate: 'Sep 2023',
-    endDate: 'Present',
-    isActive: true,
-    companyUrl: siteConfig.baseUrl + '/blog'
-  },
-  {
-    title: 'Open Source Contributor & Maintainer | Dec. 2020 - Present',
-    description:
-      'Actively contributing to and maintaining open-source repositories on GitHub. Focused on building and improving tools for the developer community.',
-    startDate: 'Dec 2020',
-    endDate: 'Present',
-    isActive: true,
-    companyUrl: siteConfig.social.github
-  }
 ];

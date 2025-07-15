@@ -21,52 +21,7 @@ const AuthAvatar = () => {
     }
   }, [session]);
 
-  const handleSignIn = () => {
-    signIn('github'); // Trigger GitHub OAuth
-  };
-
-  const handleSignOut = () => {
-    signOut(); // Sign out the user
-    Cookies.remove('auth'); // Clear auth cookie
-    setIsSignedIn(false);
-    setAvatarUrl(''); // Reset avatar URL
-  };
-
-  return (
-    <>
-      {!isSignedIn ? (
-        <Button
-          color="primary"
-          onPress={handleSignIn}
-          className="cursor-pointer bg-black text-white dark:bg-white dark:text-black"
-        >
-          Sign In
-        </Button>
-      ) : (
-        <Dropdown>
-          <DropdownTrigger>
-            <Avatar
-              isBordered
-              color="primary"
-              src={avatarUrl}
-              className="cursor-pointer h-8 w-8"
-            />
-          </DropdownTrigger>
-
-          <DropdownMenu aria-label="User settings">
-            <DropdownItem
-              key="signOut"
-              className="text-danger"
-              color="danger"
-              onPress={handleSignOut}
-            >
-              Sign Out
-            </DropdownItem>
-          </DropdownMenu>
-        </Dropdown>
-      )}
-    </>
-  );
-};
-
+  // UI entfernt
+  return null;
+}
 export default AuthAvatar;
