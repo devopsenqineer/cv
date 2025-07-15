@@ -37,6 +37,11 @@ export const siteConfig: {
     debug: boolean;
     rateLimit: number;
   };
+  other: {
+    hacktoberfest: string;
+    codsoft: string;
+    github_snake: string;
+  };
   metadata: {
     description: string;
     keywords: string;
@@ -86,6 +91,12 @@ export const siteConfig: {
   contact: {
     debug: true,
     rateLimit: 10
+  },
+
+  other: {
+    hacktoberfest: '',
+    codsoft: '',
+    github_snake: ''
   },
 
 };
