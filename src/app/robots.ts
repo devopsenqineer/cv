@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 import type { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
@@ -14,8 +15,8 @@ export default function robots(): MetadataRoute.Robots {
       }
     ],
     sitemap: [
-      'https://muhammadfiaz.com/sitemap.xml', // First sitemap URL
-      'https://muhammadfiaz.com/sitemap-0.xml' // Second sitemap URL
+      'https://cv.salad1n.dev/sitemap.xml',
+      'https://cv.salad1n.dev/sitemap-0.xml'
     ]
   };
 }
