@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+
+User-Agent: ia_archiver
+Disallow: /
+
+Sitemap: https://cv.salad1n.dev/sitemap.xml
+Sitemap: https://cv.salad1n.dev/sitemap-0.xml
